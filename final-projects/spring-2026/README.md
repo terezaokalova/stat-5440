@@ -2,13 +2,13 @@
 
 ## Submission Instructions
 
-Each group must create a subfolder in this directory named with your group number (e.g., `group-01`, `group-02`). Inside your group folder, include both your **tutorial** and **presentation slides**.
+Each group must create a subfolder in this directory named with your group name (e.g., `group-group-dirichlet-process`, `group-time-series`). Inside your group folder, include both your **tutorial** and **presentation slides**.
 
 ### Folder Structure
 
 ```
 spring-2026/
-├── group-01/
+├── group-dirichlet-process/
 │   ├── tutorial/
 │   │   ├── tutorial.pdf        (or .html or .md)
 │   │   └── figures/            (if using Markdown)
@@ -19,7 +19,7 @@ spring-2026/
 │       └── figures/            (if using Markdown)
 │           ├── figure1.png
 │           └── ...
-├── group-02/
+├── group-time-series/
 │   └── ...
 ```
 
