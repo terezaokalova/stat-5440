@@ -1,0 +1,20 @@
+Checking sampler transitions treedepth.
+Treedepth satisfactory for all transitions.
+
+Checking sampler transitions for divergences.
+No divergent transitions found.
+
+Checking E-BFMI - sampler transitions HMC potential energy.
+The E-BFMI, 0.01, is below the nominal threshold of 0.30 which suggests that HMC may have trouble exploring the target distribution.
+If possible, try to reparameterize the model.
+
+The following parameters had fewer than 0.001 effective draws per transition:
+  v[1], v[2], v[3], v[4], v[5], v[6], v[7], mu[1,1], mu[2,1], mu[3,1], mu[4,1], mu[5,1], mu[6,1], mu[7,1], mu[8,1], mu[1,2], mu[2,2], mu[3,2], mu[4,2], mu[5,2], mu[6,2], mu[7,2], mu[8,2], sigma[1,1], sigma[2,1], sigma[3,1], sigma[4,1], sigma[5,1], sigma[6,1], sigma[7,1], sigma[8,1], sigma[1,2], sigma[2,2], sigma[3,2], sigma[4,2], sigma[5,2], sigma[6,2], sigma[7,2], sigma[8,2], w[1], w[2], w[3], w[4], w[5], w[6], w[7], w[8]
+Such low values indicate that the effective sample size estimators may be biased high and actual performance may be substantially lower than quoted.
+
+The following parameters had rank-normalized split R-hat greater than 1.01:
+  v[1], v[2], v[3], v[4], v[5], v[6], v[7], mu[1,1], mu[2,1], mu[3,1], mu[4,1], mu[5,1], mu[6,1], mu[7,1], mu[8,1], mu[1,2], mu[2,2], mu[3,2], mu[4,2], mu[5,2], mu[6,2], mu[7,2], mu[8,2], sigma[1,1], sigma[2,1], sigma[3,1], sigma[4,1], sigma[5,1], sigma[6,1], sigma[7,1], sigma[8,1], sigma[1,2], sigma[2,2], sigma[3,2], sigma[4,2], sigma[5,2], sigma[6,2], sigma[7,2], sigma[8,2], alpha, w[1], w[2], w[3], w[4], w[5], w[6], w[7], w[8]
+Such high values indicate incomplete mixing and biased estimation.
+You should consider regularizing your model with additional prior information or a more effective parameterization.
+
+Processing complete.
